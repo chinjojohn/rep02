@@ -12,7 +12,7 @@
     "test": "gulp test"
   },
   "dependencies": {
-    "knockout": "3.4.0",
+    "knockout": "3.5.0",
     "@types/knockout": "3.4.39",
     "@microsoft/sp-core-library": "1.10.0",
     "@microsoft/sp-property-pane": "1.10.0",
