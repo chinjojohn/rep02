@@ -1,0 +1,35 @@
+<div data-bind="attr: { class:knockoutWebpartClass }">
+    <div data-bind="attr: { class:containerClass }">
+      <div data-bind="attr: { class:rowClass }">
+        <div data-bind="attr: { class:columnClass }">
+          <span data-bind="attr: { class:titleClass }">Welcome to SharePoint!</span>
+          <p data-bind="attr: { class:subTitleClass }">Customize SharePoint experiences using Web Parts.</p>
+          <p data-bind="attr: { class:descriptionClass }, text:listName"></p>
+          <div data-bind="attr: {class:rowClass}">
+            <button data-bind="attr: {class: buttonClass}, click: createItem">
+              <label class="attr: {class: labelClass}">Create item</label>
+            </button>
+            <button data-bind="attr: {class: buttonClass}, click: readItem">
+              <label class="attr: {class: labelClass}">Read item</label>
+            </button>
+        </div>
+        <p></p>
+        <div data-bind="attr: {class:rowClass}">
+          <button data-bind="attr: {class: buttonClass}, click: updateItem">
+            <label class="attr: {class: labelClass}">Update item</label>
+          </button>
+          <button data-bind="attr: {class: buttonClass}, click: deleteItem">
+            <label class="attr: {class: labelClass}">Delete item</label>
+          </button>
+      </div>
+      <div data-bind="attr: {class:rowClass}">
+        <p class="ms-font-l" data-bind="{ css: 'ms-fontColor-white', text: message }"></p>
+</div>  
+
+          <a href="https://aka.ms/spfx" data-bind="attr: { class:buttonClass }">
+            <span data-bind="attr: { class:labelClass }">Learn more</span>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>

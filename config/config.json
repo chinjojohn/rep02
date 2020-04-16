@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "knockout-webpart-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/knockoutWebpart/KnockoutWebpartWebPart.js",
+          "manifest": "./src/webparts/knockoutWebpart/KnockoutWebpartWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "KnockoutWebpartWebPartStrings": "lib/webparts/knockoutWebpart/loc/{locale}.js"
+  }
+}
